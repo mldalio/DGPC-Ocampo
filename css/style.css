@@ -1,0 +1,99 @@
+* {
+	margin: auto;
+	padding: 0;
+	box-sizing: border-box;
+	max-width: 24rem;
+}
+
+body {
+	background: #ffffff;
+	max-width: 30rem;
+	min-height: 100vh;
+	background: #333333;
+	font-family: 'DM Sans';
+	text-align: left;
+}
+
+/* Foto Julián*/
+.julian {
+	margin-top: 4rem;
+	margin-bottom: 2rem;
+}
+
+.julian img {
+	width: 10rem;
+	height: 10rem;
+	border-radius: 50%;
+	box-shadow: #000;
+	display: block;
+
+}
+
+.fondo-blanco {
+	background: white no-repeat;
+	min-height: 9vh;
+}
+
+.fondo-violeta {
+	background: #3F1DCB;
+	margin-bottom: -5rem;
+}
+
+.contenido {
+	background: white;
+	min-height: 5vh;
+}
+
+.borde-verde {
+	background-color: rgba(93.00000205636024, 242.00000077486038, 214.00000244379044, 1);
+	width: 361px;
+	height: 96px;
+	left: 19px;
+	top: 435px;
+	border-top-left-radius: 28px;
+	border-top-right-radius: 28px;
+	border-bottom-left-radius: 28px;
+	border-bottom-right-radius: 28px;
+}
+
+.recuadro-verde {
+	background-color: rgba(0, 191.00000381469727, 165.00000536441803, 1);
+	width: 153px;
+	height: 96px;
+	position: absolute;
+	left: 483px;
+	top: 341px;
+
+	border-top-right-radius: 40px;
+
+	border-bottom-right-radius: 40px;
+}
+}
+
+}
+
+.borde-violeta {
+	background-color: rgba(217.0000022649765, 189.00000393390656, 255, 1);
+	width: 361px;
+	height: 96px;
+	position: absolute;
+	left: 19px;
+	top: 558px;
+	border-top-left-radius: 28px;
+	border-top-right-radius: 28px;
+	border-bottom-left-radius: 28px;
+	border-bottom-right-radius: 28px;
+}
+
+.borde-naranja {
+	background-color: rgba(242.00000077486038, 190.0000038743019, 93.00000205636024, 1);
+	width: 361px;
+	height: 96px;
+	position: absolute;
+	left: 19px;
+	top: 683px;
+	border-top-left-radius: 28px;
+	border-top-right-radius: 28px;
+	border-bottom-left-radius: 28px;
+	border-bottom-right-radius: 28px;
+}
