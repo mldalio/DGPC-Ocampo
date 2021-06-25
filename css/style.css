@@ -74,19 +74,20 @@ a {
 
 .contenido {
 	background: white;
+	height: 528px;
 }
+
 
 .borde-verde {
 	background-color: rgba(93.00000205636024, 242.00000077486038, 214.00000244379044, 1);
 	max-width: 380px;
 	height: 96px;
-	left: 19px;
-	top: 435px;
 	border-top-left-radius: 28px;
 	border-top-right-radius: 28px;
 	border-bottom-left-radius: 28px;
 	border-bottom-right-radius: 28px;
-	margin-top: 1rem;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	margin-left: 0rem;
 }
 
@@ -111,7 +112,8 @@ a {
 	border-top-right-radius: 28px;
 	border-bottom-left-radius: 28px;
 	border-bottom-right-radius: 28px;
-	margin-top: 1rem;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	margin-left: 0rem;
 }
 
@@ -136,9 +138,9 @@ a {
 	border-top-right-radius: 28px;
 	border-bottom-left-radius: 28px;
 	border-bottom-right-radius: 28px;
-	margin-top: 1rem;
+	margin-top: 30px;
+	margin-bottom: 23.33px;
 	margin-left: 0rem;
-	margin-bottom: 2rem;
 }
 
 .recuadro-naranja {
