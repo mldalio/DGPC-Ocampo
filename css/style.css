@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Rubik&display=swap');
+
 * {
 	margin: auto;
 	padding: 0;
@@ -10,8 +12,16 @@ body {
 	max-width: 30rem;
 	min-height: 100vh;
 	background: #333333;
-	font-family: 'DM Sans';
 	text-align: left;
+}
+
+h1, h3 {
+	font-family: 'Rubik';
+
+}
+
+body p {
+	font-family: 'Inter';
 }
 
 /* Foto Julián*/
@@ -26,7 +36,6 @@ body {
 	border-radius: 50%;
 	box-shadow: #000;
 	display: block;
-
 }
 
 .fondo-blanco {
@@ -46,7 +55,7 @@ body {
 
 .borde-verde {
 	background-color: rgba(93.00000205636024, 242.00000077486038, 214.00000244379044, 1);
-	width: 361px;
+	width: 326px;
 	height: 96px;
 	left: 19px;
 	top: 435px;
@@ -54,46 +63,80 @@ body {
 	border-top-right-radius: 28px;
 	border-bottom-left-radius: 28px;
 	border-bottom-right-radius: 28px;
+	margin-top: 2rem;
+	margin-left: 0rem;
 }
 
 .recuadro-verde {
 	background-color: rgba(0, 191.00000381469727, 165.00000536441803, 1);
 	width: 153px;
 	height: 96px;
-	position: absolute;
-	left: 483px;
-	top: 341px;
-
 	border-top-right-radius: 40px;
-
 	border-bottom-right-radius: 40px;
-}
-}
-
+	position: absolute;
+	/*left:483px;*/
+	/*top:341px;*/
 }
 
 .borde-violeta {
 	background-color: rgba(217.0000022649765, 189.00000393390656, 255, 1);
-	width: 361px;
+	width: 326px;
 	height: 96px;
-	position: absolute;
 	left: 19px;
-	top: 558px;
+	top: 435px;
 	border-top-left-radius: 28px;
 	border-top-right-radius: 28px;
 	border-bottom-left-radius: 28px;
 	border-bottom-right-radius: 28px;
+	margin-top: 1rem;
+	margin-left: 0rem;
+}
+
+.recuadro-violeta {
+	background-color: rgba(180.00000447034836, 124.00000020861626, 255, 1);
+	width: 153px;
+	height: 96px;
+	position: absolute;
+	/*left: 483px;*/
+	/*top:341px;*/
+	border-top-right-radius: 40px;
+	border-bottom-right-radius: 40px;
 }
 
 .borde-naranja {
 	background-color: rgba(242.00000077486038, 190.0000038743019, 93.00000205636024, 1);
-	width: 361px;
+	width: 326px;
 	height: 96px;
-	position: absolute;
 	left: 19px;
-	top: 683px;
+	top: 435px;
 	border-top-left-radius: 28px;
 	border-top-right-radius: 28px;
 	border-bottom-left-radius: 28px;
 	border-bottom-right-radius: 28px;
+	margin-top: 1rem;
+	margin-left: 0rem;
+}
+
+.recuadro-naranja {
+	background-color: #F2AA1F;
+	width: 153px;
+	height: 96px;
+	position: absolute;
+	/*left:483px;*/
+	/*top:341px;*/
+	border-top-right-radius: 40px;
+	border-bottom-right-radius: 40px;
+	margin-bottom: 2rem;
+}
+
+.iconos {
+	margin-left: 2rem;
+	height: 50px;
+	margin-top: 1.2rem;
+}
+
+.titulos {
+	margin-left: 11rem;
+	margin-top: -2.2em;
+
 }
